@@ -36,34 +36,4 @@ This command
 
 [ava](https://www.npmjs.com/package/ava)
 
-## Transpilation setup with babel for new ES features
-
-babel-preset-env
-- [preset-env](http://babeljs.io/docs/plugins/preset-env)
-
-enabled transforms
-- [object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread/)
-
-You are free to extend the transform options in package.json at key `babel` (no need for .babelrc file to keep project configuration neatly packed)
-
-```
-$ jq '.babel' package.json
-{
-  "plugins": [
-    "transform-object-rest-spread"
-  ],
-  "presets": [
-    [
-      "env",
-      {
-        "targets": {
-          "node": "current"
-        }
-      }
-    ],
-    "@ava/stage-4"
-  ]
-}
-```
-
 Enjoy!
