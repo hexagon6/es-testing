@@ -4,14 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "ava test"
+    "test": "ava"
   },
   "devDependencies": {
     "ava": "^2.4.0"
   },
   "ava": {
     "files": [
-      "tests/*.js"
+      "test/*.js"
     ],
     "source": [
       "src"
