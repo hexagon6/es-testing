@@ -1,5 +1,5 @@
 import test from 'ava'
 
-test('passes', t => {
+test('passes', (t) => {
   t.fail()
 })
