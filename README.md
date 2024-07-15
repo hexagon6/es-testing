@@ -20,8 +20,8 @@ Check out the latest commit of this repository and install dependencies:
 `npm test -w` or `yarn test -w`
 
 This command
- runs tests on each save of a file and
- let's you focus on your code.
+runs tests on each save of a file and
+let's you focus on your code.
 
 ## Folder structure
 
